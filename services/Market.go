@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/huobiapi/REST-GO-demo/config"
-	"github.com/huobiapi/REST-GO-demo/models"
-	"github.com/huobiapi/REST-GO-demo/untils"
+	"../config"
+	"../models"
+	"../untils"
 )
 
 // 批量操作的API下个版本再封装
