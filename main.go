@@ -1,9 +1,11 @@
 package main
 
 import (
+	"./services"
 	"fmt"
 )
 
 func main() {
-	fmt.Println("火币")
+	res := services.GetKLine("btcusdt", "1min", 200)
+	fmt.Println(res)
 }
